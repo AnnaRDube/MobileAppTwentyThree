@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Twenty-Three</string>
+    <string name="hit">Draw</string>
+    <string name="stay">Stay</string>
+    <string name="rules">Rules</string>
+    <string name="dealer">Computer</string>
+    <string name="user">User</string>
+    <string name="play">Play</string>
+    <string name="playAgain">Play Again</string>
+    <string name="points">Points</string>
+    <string name="cards">Cards</string>
+    <string name="main">Main Menu</string>
+    <string name="exit">Exit</string>
+    <string name="rule1">
+        This game is similar to the card game 21.\n\nThe goal of the game is to get as close to -23 or 23
+        as possible without going over.\n\nThe game can also be won by getting a card of any suit with the value
+        of two for the first card and a card of any suit with the value of three for the second card.\n\nRed cards
+        have negative point values.\n\nBlack cards have positive point values.\n\nBoth the user and the computer
+        start out with two cards.\n\nThe user is able to discard and redraw up to three cards. When a user discards
+        a card, he is automatically given a new card. To discard a card, just touch the card.
+        A message will be displayed asking the user if he wants to discard the card.\n\n The user is only allowed
+        to have at the most seven cards on the table. Once the user has seven cards on the table
+        and he has discarded and redrawn three times, his turn is automatically over. His turn is also automatically
+        over if he busts.\n\nThe computer is able to draw
+        up to an additional eight cards.\n\nWhen it is the computer\'s turn, it has to continue to draw until its points are
+        above 17 or it has busted or it has reached the draw limit.
+    </string>
+
+    <string name="cards2">For cards 2-10, the points are the same as the card value. </string>
+</resources>
